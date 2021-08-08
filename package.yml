@@ -1,6 +1,6 @@
 name       : python-pytaglib
 version    : 1.4.6
-release    : 1
+release    : 2
 source     :
     - https://files.pythonhosted.org/packages/c7/44/f054737af93d8bc57c3a23906e4e7d1b5538c7d96577746e5c4b2f92b181/pytaglib-1.4.6.tar.gz : 16daf54e78fb56442293d20d7659097470ecac9031f33037f9d53baa31382952
 license    : GPL-3.0-or-later
@@ -17,5 +17,5 @@ build      : |
 install    : |
     %python3_install
 check      : |
-    export PYTHONPATH=$installdir/usr/lib/python3.7/site-packages
+    export PYTHONPATH=$installdir/usr/lib/python3.9/site-packages
     python3 -m pytest
