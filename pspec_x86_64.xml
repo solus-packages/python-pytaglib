@@ -19,21 +19,21 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin/pyprinttags3</Path>
+            <Path fileType="executable">/usr/bin/pyprinttags</Path>
             <Path fileType="library">/usr/lib/python3.9/site-packages/__pycache__/pyprinttags.cpython-39.pyc</Path>
             <Path fileType="library">/usr/lib/python3.9/site-packages/pyprinttags.py</Path>
-            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.4.6-py3.9.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.4.6-py3.9.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.4.6-py3.9.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.4.6-py3.9.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.4.6-py3.9.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.5.0-py3.9.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.5.0-py3.9.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.5.0-py3.9.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.5.0-py3.9.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/pytaglib-1.5.0-py3.9.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.9/site-packages/taglib.cpython-39-x86_64-linux-gnu.so</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2021-07-28</Date>
-            <Version>1.4.6</Version>
+        <Update release="3">
+            <Date>2022-04-15</Date>
+            <Version>1.5.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>

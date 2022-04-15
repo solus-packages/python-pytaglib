@@ -1,8 +1,8 @@
 name       : python-pytaglib
-version    : 1.4.6
-release    : 2
+version    : 1.5.0
+release    : 3
 source     :
-    - https://files.pythonhosted.org/packages/c7/44/f054737af93d8bc57c3a23906e4e7d1b5538c7d96577746e5c4b2f92b181/pytaglib-1.4.6.tar.gz : 16daf54e78fb56442293d20d7659097470ecac9031f33037f9d53baa31382952
+    - https://files.pythonhosted.org/packages/ea/bb/bdd8aa96668820731f8eb871a938efbf535cf70a3fbe2939d3323dfb0228/pytaglib-1.5.0.tar.gz : 8f7603dffdb1930428b305e79b8ca127e9cffc4ce4d2f7440a5f5226a82e6e5f
 license    : GPL-3.0-or-later
 component  : programming.python
 summary    : Audio tagging library
@@ -17,5 +17,5 @@ build      : |
 install    : |
     %python3_install
 check      : |
-    export PYTHONPATH=$installdir/usr/lib/python3.9/site-packages
+    export PYTHONPATH=$installdir/usr/lib/python%python3_version%/site-packages
     python3 -m pytest
