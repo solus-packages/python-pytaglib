@@ -6,6 +6,7 @@ UNKNOWN:PyBytes_Type
 UNKNOWN:PyCFunction_Type
 UNKNOWN:PyCapsule_New
 UNKNOWN:PyCode_NewEmpty
+UNKNOWN:PyDescr_IsData
 UNKNOWN:PyDict_DelItem
 UNKNOWN:PyDict_GetItemString
 UNKNOWN:PyDict_GetItemWithError
